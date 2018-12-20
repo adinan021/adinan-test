@@ -8,6 +8,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { SocialInfoPage } from '../pages/social-info/social-info';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { GMapsPage } from '../pages/g-maps/g-maps';
 
 @Component({
   templateUrl: 'app.html'
@@ -27,7 +28,8 @@ export class MyApp {
       { title: 'SocialInfoPage', component: SocialInfoPage, icon: 'md-finger-print'},
       { title: 'Home', component: HomePage, icon: 'md-finger-print' },
       { title: 'List', component: ListPage, icon: 'md-finger-print' },
-      { title: 'BarcodeScanner', component: BarcodeScannerPage, icon: 'md-finger-print' }
+      { title: 'BarcodeScanner', component: BarcodeScannerPage, icon: 'md-finger-print' },
+      { title: 'Geolocation', component: GMapsPage, icon: 'md-finger-print' }
     ];
 
   }
